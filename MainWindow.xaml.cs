@@ -2,6 +2,7 @@
 using NewDealMetaverse.Day4.Cahptor5;
 using NewDealMetaverse.Day4.Cahptor6;
 using NewDealMetaverse.Day5.Cahptor7;
+using System;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -40,9 +41,10 @@ namespace NewDealMetaverse
             //WriteResult(new OverLoadingEx
             //WriteResult(new ParamsEx());
             //WriteResult(new OptionalParameterEx());
+            
 
-            //객체 생성
-            Animal animal = new Animal();
+            //Zoo zoo = new Zoo();
+            Player player = new Player();
         }
 
         private void WriteResult(IPrint result)
