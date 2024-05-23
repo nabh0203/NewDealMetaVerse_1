@@ -2,6 +2,13 @@
 using NewDealMetaverse.Day4.Cahptor5;
 using NewDealMetaverse.Day4.Cahptor6;
 using NewDealMetaverse.Day5.Cahptor7;
+using NewDealMetaverse.Day6.Cahptor10;
+using NewDealMetaverse.Day6.Cahptor9;
+using NewDealMetaverse.Day6.Chaptor11;
+using NewDealMetaverse.Day6.Cptor10;
+using NewDealMetaverse.Day7.Chaptor11;
+using NewDealMetaverse.Day7.Chaptor12;
+using NewDealMetaverse.Day7.Chaptor13;
 using System;
 using System.Text;
 using System.Windows;
@@ -25,6 +32,7 @@ namespace NewDealMetaverse
         {
             InitializeComponent();
 
+
             //WriteResult(new SignedUnsignedEx());
             //WriteResult(new FloatDoubleEx());
             //WriteResult(new FloatDoubleEx2());
@@ -41,10 +49,25 @@ namespace NewDealMetaverse
             //WriteResult(new OverLoadingEx
             //WriteResult(new ParamsEx());
             //WriteResult(new OptionalParameterEx());
-            
+
 
             //Zoo zoo = new Zoo();
-            Player player = new Player();
+            //Player player = new Player();
+
+            //WriteResult(new PropertyEx());
+            //WriteResult(new ArraySample());
+            //WriteResult(new MoreOnArray());
+            //WriteResult(new Array2D());
+            //WriteResult(new CopyingArray());
+            //WriteResult(new Generic());
+            //WriteResult(new UsingList());
+            //WriteResult(new UsingList2D());
+            //WriteResult(new UsingDictionary());
+            //WriteResult(new TryCatch());
+            //WriteResult(new MyDevClass());
+            WriteResult(new ContentClass());
+
+
         }
 
         private void WriteResult(IPrint result)
