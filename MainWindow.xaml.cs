@@ -9,6 +9,7 @@ using NewDealMetaverse.Day6.Cptor10;
 using NewDealMetaverse.Day7.Chaptor11;
 using NewDealMetaverse.Day7.Chaptor12;
 using NewDealMetaverse.Day7.Chaptor13;
+using NewDealMetaverse.Day8;
 using System;
 using System.Text;
 using System.Windows;
@@ -65,9 +66,11 @@ namespace NewDealMetaverse
             //WriteResult(new UsingDictionary());
             //WriteResult(new TryCatch());
             //WriteResult(new MyDevClass());
-            WriteResult(new ContentClass());
+            //WriteResult(new ContentClass());
 
-
+            //Variable variable = new Variable();
+            //StringToNumber stn = new StringToNumber();
+            StringFunction sf = new StringFunction();
         }
 
         private void WriteResult(IPrint result)
